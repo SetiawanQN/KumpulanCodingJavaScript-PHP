@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+JavaScript can write directly into the HTML output stream:
+</p>
+
+<script>
+document.write("<h1>This is a heading</h1>");
+document.write("<p>This is a heading</p>");
+</script>
+
+<p>
+You can only use <strong>document.write</strong> in the HTML output.
+If you use it after the document has loaded (e.g in a function), the ehole document will be overwritten.
+</p>
+
+</body>
+</html>
